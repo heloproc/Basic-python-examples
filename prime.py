@@ -1,3 +1,5 @@
+#A py program to check whether a given number is prime or not, applying recursion.
+
 def is_prime(n, i=2):
   """
   Recursively checks if n is a prime number.
