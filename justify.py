@@ -4,7 +4,7 @@ def right_justify(s):
     for i in s:
         l.append(i)
 
-    pos = 70 - len(l)  # Calculate number of spaces
+    pos = 70 - len(l)  # Calculate number of spaces here the last character appears at 70th column of page
     justified_string = " " * pos + "".join(l)  # Create justified string
     return justified_string  # Return the justified string
 
