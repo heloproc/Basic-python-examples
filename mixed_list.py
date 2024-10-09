@@ -8,7 +8,7 @@ def print_nested_elements(nested_list):
       print(element)  # Print the element if it's not a list
 
 # Example mixed nested list
-nested_list = [1, 4, [5, 7]]
+nested_list = [1,2, 4, [5, 7]]
 
 # Print each element
 print_nested_elements(nested_list)
