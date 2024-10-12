@@ -18,7 +18,7 @@ def create_markov_chain(words, prefix_length=2):
             markov_chain[prefix] = [suffix]
     return markov_chain
 
-def generate_text(chain, length=100):
+def generate_text(chain, length=100, prefix_length=2):
     """Generates random text based on a Markov chain.
 
     Args:
